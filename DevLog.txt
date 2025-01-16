@@ -1,0 +1,11 @@
+Changes:
+
+    Combat
+        Switch to a turn based system
+        Add a visual element
+    Clean up code (in general)
+        Text dumps put somehwere else
+    Riddles
+        Clean up blobs of text there
+
+That's all I got right now, but that will most likely change as I work on the project more
