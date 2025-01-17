@@ -6,8 +6,8 @@ class playerturn():
         self.enemy = enemy
 
     def action(self):
-        print(self.enemy.hitPoints)
+        print(self.player.hitPoints,",",self.enemy.hitPoints)
         playerChoice = ""
         playerChoice = input()
         if (playerChoice == "a"):
-            self.enemy.hitPoints = self.enemy.hitPoints - random.randint(0,8)
+            self.enemy.hitPoints = self.enemy.hitPoints - random.randint(0,3)
